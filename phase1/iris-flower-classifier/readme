@@ -279,8 +279,36 @@ This project helped me understand:
 * How to approach a dataset step-by-step
 * How to analyze features before modeling
 * How models behave with different inputs
+---
 
+# 📸 Visualizations & Analysis Plots
 
+## 🔹 Exploratory Data Analysis (EDA)
+
+![Countplot - Target Distribution](images/Screenshot%202026-04-26%20220650.png)
+*Target distribution showing balanced dataset*
+
+![Histograms - Feature Distributions](images/Screenshot%202026-04-26%20220706.png)
+*Univariate analysis of features - Normal distributions*
+
+![Pairplot - Feature Relationships](images/Screenshot%202026-04-26%20222414.png)
+*Pairplot showing relationships between features and class separation*
+
+## 🔹 Model Evaluation
+
+![Confusion Matrix - Logistic Regression](images/Screenshot%202026-04-26%20225453.png)
+*Perfect classification - All predictions correct*
+
+![Feature Importance Analysis](images/Screenshot%202026-04-26%20225741.png)
+*Visual representation of feature importance*
+
+## 🔹 Additional Insights
+
+![Dataset Visualization 1](images/WhatsApp%20Image%202026-04-26%20at%2011.22.00%20PM.jpeg)
+*Detailed analysis visualization*
+
+![Dataset Visualization 2](images/WhatsApp%20Image%202026-04-26%20at%2011.22.01%20PM.jpeg)
+*Supplementary analysis visualization*
 ---
 
 # 🚀 What’s Next?
