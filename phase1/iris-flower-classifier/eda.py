@@ -21,13 +21,12 @@ print(df.info())
 sns.countplot(x='target', data=df)
 plt.show()
 
-
 #univariate analysis
 df.hist(figsize=(10,6))
 plt.show()   ##check if values normal , any outliers
 
 sns.pairplot(df, hue='target')
-plt.show()  ##check the relationship between features and target variable
+plt.show()  #check the relationship between features and target variable
 
 # features and target
 X = df.drop('target', axis=1)

@@ -10,8 +10,6 @@ print(df.head())
 print(df.shape)
 print(df.info())
 
-
-
 plt.hist(df['price'])
 plt.title("Price Distribution")
 plt.show()   
@@ -27,8 +25,6 @@ for col in num_cols:
     plt.title(col)
     plt.show()
     
-    
-
 #Relationship with Target (PRICE)
 num_cols = ['area', 'bedrooms', 'bathrooms', 'stories', 'parking']
 
@@ -36,8 +32,6 @@ for col in num_cols:
     sns.scatterplot(x=df[col], y=df['price'])
     plt.title(f"{col} vs Price")
     plt.show()
-    
-
 
 #preprocessing
 #covert yes ->1 and no ->0 for binary columns
