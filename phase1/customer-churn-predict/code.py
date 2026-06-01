@@ -8,22 +8,20 @@ print(df.head())
 print(df.info())
 print(df.shape)
 
+# Target distribution
+sns.countplot(x='Churn Label', data=df)
+plt.title("Churn Distribution")
+plt.show()
 
+# Monthly Charges vs Churn
+sns.boxplot(x='Churn Label', y='Monthly Charges', data=df)
+plt.title("Monthly Charges vs Churn")
+plt.show()
 
-# # Target distribution
-# sns.countplot(x='Churn Label', data=df)
-# plt.title("Churn Distribution")
-# plt.show()
-
-# # Monthly Charges vs Churn
-# sns.boxplot(x='Churn Label', y='Monthly Charges', data=df)
-# plt.title("Monthly Charges vs Churn")
-# plt.show()
-
-# # Tenure vs Churn
-# sns.boxplot(x='Churn Label', y='Tenure Months', data=df)
-# plt.title("Tenure vs Churn")
-# plt.show()
+# Tenure vs Churn
+sns.boxplot(x='Churn Label', y='Tenure Months', data=df)
+plt.title("Tenure vs Churn")
+plt.show()
 
 
 # Total Charges was string → convert to numeric
@@ -31,10 +29,10 @@ df['Total Charges'] = pd.to_numeric(df['Total Charges'], errors='coerce')
 df['Total Charges'] = df['Total Charges'].fillna(0)
 
 
-# # Total Charges vs Churn
-# sns.boxplot(x='Churn Label', y='Total Charges', data=df)
-# plt.title("Total Charges vs Churn")
-# plt.show()
+# Total Charges vs Churn
+sns.boxplot(x='Churn Label', y='Total Charges', data=df)
+plt.title("Total Charges vs Churn")
+plt.show()
 
 
 # Remove leakage + useless columns
@@ -135,3 +133,5 @@ for t in [0.3, 0.4, 0.5, 0.6, 0.7]:
     y_pred_t = (y_prob > t).astype(int)
     print(f"\nThreshold: {t}")
     print(classification_report(y_test, y_pred_t))
+    
+    
