@@ -359,7 +359,7 @@ Test Accuracy
 CNN outperformed ANN because sentiment is often determined by short phrases rather than isolated words.
 
 <p align="center">
-<img src="images/cnn1.png" width="700">
+<img src="images/cnn.png" width="700">
 </p>
 
 
