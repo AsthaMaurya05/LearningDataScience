@@ -47,7 +47,7 @@ LearningDataScience/
 | ✅ Phase 2 – Feature Engineering & ML | Titanic, Fraud Detection, Movie Recommendation | ✔ Completed |
 | ✅ Phase 3 – Artificial Neural Networks | MNIST Digit Classification | ✔ Completed |
 | ✅ Bridge Project (Phase 3 → Phase 5) | Sentiment Analysis (ANN → CNN → BiLSTM) | ✔ Completed |
-| ⏳ Phase 6 – Transformers & Attention | Coming Soon | 🔄 In Progress |
+| ✅ Phase 6 – Transformers & Attention | Attention is all you need |  ✔ Completed |
 
 ---
 
